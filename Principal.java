@@ -17,21 +17,21 @@ public class Principal {
 
 
         //DESAFIO CARRO
-        Carro carro = new Carro();
-
-        carro.nome = "Mustangue";
-        carro.marca = "Ford";
-        carro.anoDeLancamento = 1969;
-
-        carro.exibeFichaTecnica();
-        carro.avalia(8);
-        carro.avalia(10);
-        carro.avalia(10);
-        System.out.println(carro.somaDasAvaliacao);
-        System.out.println(carro.totalDeAvaliacao);
-
-        carro.pegaMedia();
-        System.out.println(carro.pegaMedia());
+//        Carro carro = new Carro();
+//
+//        carro.nome = "Mustangue";
+//        carro.marca = "Ford";
+//        carro.anoDeLancamento = 1969;
+//
+//        carro.exibeFichaTecnica();
+//        carro.avalia(8);
+//        carro.avalia(10);
+//        carro.avalia(10);
+//        System.out.println(carro.somaDasAvaliacao);
+//        System.out.println(carro.totalDeAvaliacao);
+//
+//        carro.pegaMedia();
+//        System.out.println(carro.pegaMedia());
 
 
         // DESAFIO NOME
@@ -44,6 +44,22 @@ public class Principal {
 //
 //        ficha.exibir();
 
+
+        // EXERCICIO 1
+
+//        Pessoa aparecer = new Pessoa();
+//        aparecer.pessoa();
+
+        //EXERCICIO 2
+        Calculadora numero = new Calculadora();
+        numero.dobro();
+
+        //EXERCICIO 3
+        Musica musicas = new Musica();
+
+        musicas.titulo = "Genesis";
+        musicas.artista = "Anny";
+        musicas.anoLancamento = 2025;
 
     }
 }
