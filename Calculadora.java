@@ -1,9 +1,15 @@
+import java.util.Scanner;
+
 public class Calculadora {
-    int numero = 15;
 
     void dobro(){
-        numero *= 2;
-        System.out.println("O dobro de 15 é: " + numero);
-    }
+        System.out.println("Escreva um número e lhe darei o dobro");
 
+        Scanner calculadora = new Scanner(System.in);
+        int numeros = calculadora.nextInt();
+
+        numeros *= 2;
+
+        System.out.println("O dobro é " + numeros);
+    }
 }
