@@ -22,13 +22,14 @@ public class Main {
 //        livro.calcula();
 
 //        EXERCICIOS 3 CLIMA
-//        Clima climaHoje = new Clima();
-//        climaHoje.condicao = "Ensolarado";
-//        climaHoje.temperatura = 35;
-//        climaHoje.umidade = 76;
-//
-//        climaHoje.exibaClima();
-//        climaHoje.verificacao();
+        Clima climaHoje = new Clima();
+        climaHoje.condicao = false;
+        climaHoje.temperatura = 35;
+        climaHoje.umidade = 76;
+
+        climaHoje.exibaClima();
+        climaHoje.verificacao();
+        climaHoje.condicaoClima();
 
 
 //        EXERCICIO 4 PRODUTO
@@ -45,17 +46,17 @@ public class Main {
 //        System.out.println("Valor com desconto: R$ " + produto.descontoProduto());
 
 //        EXERCICIO 5 JOGO
-          Jogo jogo = new Jogo();
-
-          jogo.nome = "The last of Us";
-          jogo.categoria = "Ficção cienfitica";
-
-          jogo.avalia(10);
-          jogo.avalia(10);
-          jogo.avalia(10);
-
-        jogo.exibaFicha();
-        System.out.println("Media das avaliações: " + jogo.retornaMedia());
+//          Jogo jogo = new Jogo();
+//
+//          jogo.nome = "The last of Us";
+//          jogo.categoria = "Ficção cienfitica";
+//
+//          jogo.avalia(10);
+//          jogo.avalia(10);
+//          jogo.avalia(8);
+//
+//        jogo.exibaFicha();
+//        System.out.println("Media das avaliações: " + jogo.retornaMedia());
 
     }
 }

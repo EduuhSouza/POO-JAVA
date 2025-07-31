@@ -3,12 +3,12 @@ package alura.exercicios2;
 public class Clima {
     double temperatura;
     double umidade;
-    String condicao;
+    boolean condicao;
 
     void exibaClima(){
         System.out.println("Temperatura: " + temperatura + "C");
         System.out.println("Umidade: " + umidade + "%");
-        System.out.println("Condição: " + condicao);
+//        System.out.println("Condição: " + condicao);
     }
 
     void verificacao(){
@@ -18,4 +18,14 @@ public class Clima {
             System.out.println("Está Quente");
         }
     }
+
+    void condicaoClima(){
+        if(condicao == true){
+            System.out.println("O tempo esta Ensolarado");
+        } else {
+            System.out.println("O tempo está nublado");
+        }
+    }
+
+
 }
